@@ -1,0 +1,343 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+head {
+    font-family: "Gabarito", sans-serif;
+}
+
+
+.icon img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.icon__title {
+    color: seagreen;
+}
+
+.icon__desc {
+    display: flex;
+    gap: 30px;
+
+
+}
+
+.icon__desc {
+    color: seagreen;
+}
+
+.button {
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.s2 h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.s3__desc {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+    color: seagreen;
+
+}
+
+.s3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 250px;
+    width: 900px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 1px;
+    z-index: 1;
+    background-color: white;
+}
+
+.navbar__one {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+}
+
+.s2__title {
+    color: seagreen;
+}
+
+.navbar__button-one {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px black;
+    width: 60px;
+    padding: 10px;
+    margin-left: 400px;
+}
+
+.navbar__button-two {
+    color: black;
+    background-color: lightgreen;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.box-1 {
+    background-color: #00EB5B;
+    height: 350px;
+    width: 900px;
+    margin-left: 260px;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box-1__image {
+    width: 850px;
+    height: 300px;
+    padding: 20px;
+}
+
+.box-1__button {
+    color: black;
+    background-color: white;
+    border: solid 1px black;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.box-1__text {
+    position: absolute;
+    bottom: 35px;
+    left: 25px;
+    color: white;
+}
+
+.heading___1 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.card-one__s1 {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.card-one__desc {
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 950px;
+    left: 30px;
+
+}
+
+.card-one {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+.card-one__desc_2 {
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 950px;
+    left: 380px;
+}
+
+.card-one__desc_3 {
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 950px;
+    left: 730px;
+}
+
+.card-one__desc_4 {
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 950px;
+    left: 1050px;
+}
+
+.heading___2 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.c-places {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.c-places img {
+    gap: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.box-2 {
+    margin-top: 20px;
+    background-color: grey;
+    width: 100%;
+}
+
+.box-2__photo img {
+    height: 500px;
+    width: 600px;
+    padding: 20px;
+}
+
+.box-2__cont {
+    background-color: transparent;
+    position: relative;
+}
+
+.box-2__text {
+    font-size: 22px;
+    position: absolute;
+    bottom: 140px;
+    left: 900px;
+    right: 20px;
+    text-align: center;
+
+}
+
+.box-2__text-button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 15px;
+}
+
+.random-text {
+    border-top: 1px solid black;
+    margin: 10px;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.travel-card {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    flex-basis: 25%;
+    justify-content: space-evenly;
+}
+
+.travel-card img {
+    width: 300px;
+    border-radius: 20px;
+    height: 300px;
+    margin: 10px;
+}
+
+.travel-card h3,
+p {
+    margin: 10px;
+    font-size: medium;
+}
+
+.s5-text {
+    margin: 10px;
+    margin-top: 40px;
+    border-top: 1px solid black;
+}
+
+.s5-text p {
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.india-card {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.india-card img {
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.iconic-cont {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.iconic-cont img {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.final-image img{
+    height: 800px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: solid 1px black;
+}
+.final-image{
+    position: relative;
+}
+.final-image__text{
+    position:absolute;
+    font-weight: 300;
+    bottom: 150px;
+    color: white;
+    
+    left: 20px;
+    background-color: black;
+    border: white 1px solid;
+    font-size: xx-large;
+}
